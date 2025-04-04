@@ -1,0 +1,725 @@
+{
+    "question_bank": [
+      {
+        "topic": "HTML",
+        "questions": [
+          {
+            "difficulty": "Beginner",
+            "question": "What does HTML stand for?",
+            "options": [
+              "Hyper Text Markup Language",
+              "Hyperlinks and Text Markup Language",
+              "Home Tool Markup Language"
+            ],
+            "answer": "Hyper Text Markup Language",
+            "related_submodule": "HTML Basics"
+          },
+          {
+            "difficulty": "Beginner",
+            "question": "Which tag is used for a paragraph?",
+            "options": ["<p>", "<para>", "<text>"],
+            "answer": "<p>",
+            "related_submodule": "HTML Basics"
+          },
+          {
+            "difficulty": "Beginner",
+            "question": "What is the correct HTML for a line break?",
+            "options": ["<br>", "<lb>", "<break>"],
+            "answer": "<br>",
+            "related_submodule": "HTML Basics"
+          },
+          {
+            "difficulty": "Beginner",
+            "question": "Which attribute is used to define inline styles?",
+            "options": ["style", "class", "font"],
+            "answer": "style",
+            "related_submodule": "HTML Basics"
+          },
+          {
+            "difficulty": "Beginner",
+            "question": "What is the root element of an HTML document?",
+            "options": ["<html>", "<body>", "<head>"],
+            "answer": "<html>",
+            "related_submodule": "HTML Basics"
+          },
+          {
+            "difficulty": "Beginner",
+            "question": "Which tag is used to link a CSS file?",
+            "options": ["<link>", "<style>", "<css>"],
+            "answer": "<link>",
+            "related_submodule": "HTML Basics"
+          },
+          {
+            "difficulty": "Beginner",
+            "question": "What tag is used for an unordered list?",
+            "options": ["<ul>", "<ol>", "<li>"],
+            "answer": "<ul>",
+            "related_submodule": "HTML Basics"
+          },
+          {
+            "difficulty": "Beginner",
+            "question": "Which tag defines a hyperlink?",
+            "options": ["<a>", "<link>", "<href>"],
+            "answer": "<a>",
+            "related_submodule": "HTML Basics"
+          },
+          {
+            "difficulty": "Beginner",
+            "question": "What is the purpose of the <head> tag?",
+            "options": [
+              "Contains metadata",
+              "Defines the main content",
+              "Creates a header"
+            ],
+            "answer": "Contains metadata",
+            "related_submodule": "HTML Basics"
+          },
+          {
+            "difficulty": "Beginner",
+            "question": "Which tag is used for an image?",
+            "options": ["<img>", "<image>", "<picture>"],
+            "answer": "<img>",
+            "related_submodule": "HTML Basics"
+          },
+          {
+            "difficulty": "Intermediate",
+            "question": "Which input type is used for passwords?",
+            "options": ["type='text'", "type='password'", "type='hidden'"],
+            "answer": "type='password'",
+            "related_submodule": "Forms and Input"
+          },
+          {
+            "difficulty": "Intermediate",
+            "question": "Which tag is used for a dropdown list?",
+            "options": ["<select>", "<dropdown>", "<list>"],
+            "answer": "<select>",
+            "related_submodule": "Forms and Input"
+          },
+          {
+            "difficulty": "Intermediate",
+            "question": "What attribute is used to make an input field required?",
+            "options": ["required", "mandatory", "validate"],
+            "answer": "required",
+            "related_submodule": "Forms and Input"
+          },
+          {
+            "difficulty": "Intermediate",
+            "question": "Which tag is used to group form elements?",
+            "options": ["<fieldset>", "<group>", "<div>"],
+            "answer": "<fieldset>",
+            "related_submodule": "Forms and Input"
+          },
+          {
+            "difficulty": "Intermediate",
+            "question": "What is the default HTTP method for a form?",
+            "options": ["GET", "POST", "PUT"],
+            "answer": "GET",
+            "related_submodule": "Forms and Input"
+          },
+          {
+            "difficulty": "Intermediate",
+            "question": "Which tag is used for a navigation bar?",
+            "options": ["<nav>", "<navbar>", "<menu>"],
+            "answer": "<nav>",
+            "related_submodule": "Semantic HTML"
+          },
+          {
+            "difficulty": "Intermediate",
+            "question": "What does the <article> tag represent?",
+            "options": [
+              "A standalone piece of content",
+              "A blog post only",
+              "A comment section"
+            ],
+            "answer": "A standalone piece of content",
+            "related_submodule": "Semantic HTML"
+          },
+          {
+            "difficulty": "Intermediate",
+            "question": "Which tag is used for a footer?",
+            "options": ["<footer>", "<bottom>", "<end>"],
+            "answer": "<footer>",
+            "related_submodule": "Semantic HTML"
+          },
+          {
+            "difficulty": "Intermediate",
+            "question": "What is the purpose of the <header> tag?",
+            "options": [
+              "To contain introductory content",
+              "To define a head section",
+              "To style the top of the page"
+            ],
+            "answer": "To contain introductory content",
+            "related_submodule": "Semantic HTML"
+          },
+          {
+            "difficulty": "Intermediate",
+            "question": "Which tag is used for side content?",
+            "options": ["<aside>", "<sidebar>", "<div>"],
+            "answer": "<aside>",
+            "related_submodule": "Semantic HTML"
+          },
+          {
+            "difficulty": "Advanced",
+            "question": "Which tag is used to embed a video?",
+            "options": ["<video>", "<media>", "<movie>"],
+            "answer": "<video>",
+            "related_submodule": "Multimedia"
+          },
+          {
+            "difficulty": "Advanced",
+            "question": "What attribute is used to autoplay a video?",
+            "options": ["autoplay", "auto", "play"],
+            "answer": "autoplay",
+            "related_submodule": "Multimedia"
+          },
+          {
+            "difficulty": "Advanced",
+            "question": "Which tag is used for audio?",
+            "options": ["<audio>", "<sound>", "<mp3>"],
+            "answer": "<audio>",
+            "related_submodule": "Multimedia"
+          },
+          {
+            "difficulty": "Advanced",
+            "question": "What attribute adds controls to a video?",
+            "options": ["controls", "controller", "manage"],
+            "answer": "controls",
+            "related_submodule": "Multimedia"
+          },
+          {
+            "difficulty": "Advanced",
+            "question": "Which tag is used for embedding external content?",
+            "options": ["<iframe>", "<embed>", "<external>"],
+            "answer": "<iframe>",
+            "related_submodule": "Multimedia"
+          },
+          {
+            "difficulty": "Advanced",
+            "question": "Which CSS property is used for Flexbox?",
+            "options": ["display: flex", "display: grid", "display: block"],
+            "answer": "display: flex",
+            "related_submodule": "Advanced Layout"
+          },
+          {
+            "difficulty": "Advanced",
+            "question": "What does 'justify-content' do in Flexbox?",
+            "options": [
+              "Aligns items horizontally",
+              "Aligns items vertically",
+              "Changes font size"
+            ],
+            "answer": "Aligns items horizontally",
+            "related_submodule": "Advanced Layout"
+          },
+          {
+            "difficulty": "Advanced",
+            "question": "Which property defines columns in CSS Grid?",
+            "options": ["grid-template-columns", "grid-columns", "columns"],
+            "answer": "grid-template-columns",
+            "related_submodule": "Advanced Layout"
+          },
+          {
+            "difficulty": "Advanced",
+            "question": "What is the default direction of Flexbox?",
+            "options": ["row", "column", "stack"],
+            "answer": "row",
+            "related_submodule": "Advanced Layout"
+          },
+          {
+            "difficulty": "Advanced",
+            "question": "Which tag is commonly used as a Flexbox container?",
+            "options": ["<div>", "<flex>", "<container>"],
+            "answer": "<div>",
+            "related_submodule": "Advanced Layout"
+          }
+        ]
+      },
+      {
+        "topic": "C++",
+        "questions": [
+          {
+            "difficulty": "Beginner",
+            "question": "Which operator is used for output in C++?",
+            "options": ["<<", ">>", "cout"],
+            "answer": "<<",
+            "related_submodule": "C++ Basics"
+          },
+          {
+            "difficulty": "Beginner",
+            "question": "What is the correct way to declare an integer?",
+            "options": ["int x;", "integer x;", "x = int;"],
+            "answer": "int x;",
+            "related_submodule": "C++ Basics"
+          },
+          {
+            "difficulty": "Beginner",
+            "question": "Which header is needed for cout?",
+            "options": ["<iostream>", "<stdio.h>", "<output>"],
+            "answer": "<iostream>",
+            "related_submodule": "C++ Basics"
+          },
+          {
+            "difficulty": "Beginner",
+            "question": "What is the entry point of a C++ program?",
+            "options": ["main()", "start()", "init()"],
+            "answer": "main()",
+            "related_submodule": "C++ Basics"
+          },
+          {
+            "difficulty": "Beginner",
+            "question": "Which symbol ends a statement in C++?",
+            "options": [";", ":", "."],
+            "answer": ";",
+            "related_submodule": "C++ Basics"
+          },
+          {
+            "difficulty": "Beginner",
+            "question": "What is the output of 'cout << 5 + 3;'?",
+            "options": ["8", "53", "Error"],
+            "answer": "8",
+            "related_submodule": "C++ Basics"
+          },
+          {
+            "difficulty": "Beginner",
+            "question": "Which data type is used for single characters?",
+            "options": ["char", "string", "letter"],
+            "answer": "char",
+            "related_submodule": "C++ Basics"
+          },
+          {
+            "difficulty": "Beginner",
+            "question": "What is the size of 'int' in C++?",
+            "options": ["4 bytes", "2 bytes", "Depends on compiler"],
+            "answer": "Depends on compiler",
+            "related_submodule": "C++ Basics"
+          },
+          {
+            "difficulty": "Beginner",
+            "question": "Which operator is used for input in C++?",
+            "options": [">>", "<<", "cin"],
+            "answer": ">>",
+            "related_submodule": "C++ Basics"
+          },
+          {
+            "difficulty": "Beginner",
+            "question": "What is a variable?",
+            "options": [
+              "A named storage location",
+              "A function",
+              "A data type"
+            ],
+            "answer": "A named storage location",
+            "related_submodule": "C++ Basics"
+          },
+          {
+            "difficulty": "Intermediate",
+            "question": "Which loop is guaranteed to run at least once?",
+            "options": ["do-while", "while", "for"],
+            "answer": "do-while",
+            "related_submodule": "Control Structures"
+          },
+          {
+            "difficulty": "Intermediate",
+            "question": "What is the correct syntax for an 'if' statement?",
+            "options": ["if (x) {}", "if x {}", "if [x] {}"],
+            "answer": "if (x) {}",
+            "related_submodule": "Control Structures"
+          },
+          {
+            "difficulty": "Intermediate",
+            "question": "Which keyword is used to exit a loop?",
+            "options": ["break", "exit", "stop"],
+            "answer": "break",
+            "related_submodule": "Control Structures"
+          },
+          {
+            "difficulty": "Intermediate",
+            "question": "What does the '++' operator do?",
+            "options": ["Increments by 1", "Adds 2", "Multiplies by 1"],
+            "answer": "Increments by 1",
+            "related_submodule": "Control Structures"
+          },
+          {
+            "difficulty": "Intermediate",
+            "question": "Which is NOT a loop in C++?",
+            "options": ["repeat-until", "for", "while"],
+            "answer": "repeat-until",
+            "related_submodule": "Control Structures"
+          },
+          {
+            "difficulty": "Intermediate",
+            "question": "What is a function prototype?",
+            "options": [
+              "Declaration of a function",
+              "Definition of a function",
+              "A function call"
+            ],
+            "answer": "Declaration of a function",
+            "related_submodule": "Functions"
+          },
+          {
+            "difficulty": "Intermediate",
+            "question": "Which keyword is used for recursion?",
+            "options": ["None (call the function itself)", "recurse", "loop"],
+            "answer": "None (call the function itself)",
+            "related_submodule": "Functions"
+          },
+          {
+            "difficulty": "Intermediate",
+            "question": "What is the return type of a void function?",
+            "options": ["Nothing", "int", "char"],
+            "answer": "Nothing",
+            "related_submodule": "Functions"
+          },
+          {
+            "difficulty": "Intermediate",
+            "question": "How are parameters passed by default in C++?",
+            "options": ["By value", "By reference", "By pointer"],
+            "answer": "By value",
+            "related_submodule": "Functions"
+          },
+          {
+            "difficulty": "Intermediate",
+            "question": "What is function overloading?",
+            "options": [
+              "Multiple functions with the same name but different parameters",
+              "A function that calls itself",
+              "A function with no return type"
+            ],
+            "answer": "Multiple functions with the same name but different parameters",
+            "related_submodule": "Functions"
+          },
+          {
+            "difficulty": "Advanced",
+            "question": "Which keyword defines a class?",
+            "options": ["class", "struct", "object"],
+            "answer": "class",
+            "related_submodule": "OOP in C++"
+          },
+          {
+            "difficulty": "Advanced",
+            "question": "What is an object?",
+            "options": [
+              "Instance of a class",
+              "A function",
+              "A data type"
+            ],
+            "answer": "Instance of a class",
+            "related_submodule": "OOP in C++"
+          },
+          {
+            "difficulty": "Advanced",
+            "question": "What is encapsulation?",
+            "options": [
+              "Bundling data and methods",
+              "Inheriting properties",
+              "Hiding data"
+            ],
+            "answer": "Bundling data and methods",
+            "related_submodule": "OOP in C++"
+          },
+          {
+            "difficulty": "Advanced",
+            "question": "Which access specifier is default in a class?",
+            "options": ["private", "public", "protected"],
+            "answer": "private",
+            "related_submodule": "OOP in C++"
+          },
+          {
+            "difficulty": "Advanced",
+            "question": "What is a constructor?",
+            "options": [
+              "A function called when an object is created",
+              "A destructor",
+              "A static method"
+            ],
+            "answer": "A function called when an object is created",
+            "related_submodule": "OOP in C++"
+          },
+          {
+            "difficulty": "Advanced",
+            "question": "What is a pointer?",
+            "options": [
+              "A variable that stores a memory address",
+              "A data type",
+              "A function"
+            ],
+            "answer": "A variable that stores a memory address",
+            "related_submodule": "Pointers and Memory"
+          },
+          {
+            "difficulty": "Advanced",
+            "question": "Which operator is used to get the address of a variable?",
+            "options": ["&", "*", "#"],
+            "answer": "&",
+            "related_submodule": "Pointers and Memory"
+          },
+          {
+            "difficulty": "Advanced",
+            "question": "What does 'new' do in C++?",
+            "options": [
+              "Allocates memory dynamically",
+              "Creates a class",
+              "Declares a variable"
+            ],
+            "answer": "Allocates memory dynamically",
+            "related_submodule": "Pointers and Memory"
+          },
+          {
+            "difficulty": "Advanced",
+            "question": "What is the correct way to free memory in C++?",
+            "options": ["delete", "free", "release"],
+            "answer": "delete",
+            "related_submodule": "Pointers and Memory"
+          },
+          {
+            "difficulty": "Advanced",
+            "question": "What is a null pointer?",
+            "options": [
+              "A pointer that points to nothing",
+              "A pointer to zero",
+              "A void pointer"
+            ],
+            "answer": "A pointer that points to nothing",
+            "related_submodule": "Pointers and Memory"
+          }
+        ]
+      },
+      {
+        "topic": "Python",
+        "questions": [
+          {
+            "difficulty": "Beginner",
+            "question": "Which symbol is used for comments in Python?",
+            "options": ["#", "//", "/*"],
+            "answer": "#",
+            "related_submodule": "Python Basics"
+          },
+          {
+            "difficulty": "Beginner",
+            "question": "What is the output of 'print(3 + 2)'?",
+            "options": ["5", "32", "None"],
+            "answer": "5",
+            "related_submodule": "Python Basics"
+          },
+          {
+            "difficulty": "Beginner",
+            "question": "How do you declare a variable in Python?",
+            "options": ["x = 5", "var x = 5", "int x = 5"],
+            "answer": "x = 5",
+            "related_submodule": "Python Basics"
+          },
+          {
+            "difficulty": "Beginner",
+            "question": "Which function is used to get user input?",
+            "options": ["input()", "get()", "read()"],
+            "answer": "input()",
+            "related_submodule": "Python Basics"
+          },
+          {
+            "difficulty": "Beginner",
+            "question": "What is the type of '3.14' in Python?",
+            "options": ["float", "int", "str"],
+            "answer": "float",
+            "related_submodule": "Python Basics"
+          },
+          {
+            "difficulty": "Beginner",
+            "question": "Which keyword defines a function in Python?",
+            "options": ["def", "function", "func"],
+            "answer": "def",
+            "related_submodule": "Functions"
+          },
+          {
+            "difficulty": "Beginner",
+            "question": "What is the output of 'print(\"Hello\" * 2)'?",
+            "options": ["HelloHello", "Hello Hello", "Error"],
+            "answer": "HelloHello",
+            "related_submodule": "Python Basics"
+          },
+          {
+            "difficulty": "Beginner",
+            "question": "Which operator checks equality in Python?",
+            "options": ["==", "=", "==="],
+            "answer": "==",
+            "related_submodule": "Python Basics"
+          },
+          {
+            "difficulty": "Beginner",
+            "question": "How do you create an empty list?",
+            "options": ["[]", "list()", "Both A and B"],
+            "answer": "Both A and B",
+            "related_submodule": "Data Structures"
+          },
+          {
+            "difficulty": "Beginner",
+            "question": "Which method adds an item to a list?",
+            "options": ["append()", "add()", "push()"],
+            "answer": "append()",
+            "related_submodule": "Data Structures"
+          },
+          {
+            "difficulty": "Intermediate",
+            "question": "Which keyword is used for loops in Python?",
+            "options": ["for", "loop", "while"],
+            "answer": "for",
+            "related_submodule": "Control Flow"
+          },
+          {
+            "difficulty": "Intermediate",
+            "question": "What is the correct syntax for an 'if' statement?",
+            "options": ["if x > 0:", "if (x > 0)", "if [x > 0]"],
+            "answer": "if x > 0:",
+            "related_submodule": "Control Flow"
+          },
+          {
+            "difficulty": "Intermediate",
+            "question": "What does 'range(5)' generate?",
+            "options": ["0, 1, 2, 3, 4", "1, 2, 3, 4, 5", "5 numbers"],
+            "answer": "0, 1, 2, 3, 4",
+            "related_submodule": "Control Flow"
+          },
+          {
+            "difficulty": "Intermediate",
+            "question": "Which keyword is used to exit a loop?",
+            "options": ["break", "exit", "stop"],
+            "answer": "break",
+            "related_submodule": "Control Flow"
+          },
+          {
+            "difficulty": "Intermediate",
+            "question": "What is the output of 'print(10 // 3)'?",
+            "options": ["3", "3.333", "1"],
+            "answer": "3",
+            "related_submodule": "Control Flow"
+          },
+          {
+            "difficulty": "Intermediate",
+            "question": "What is the return value of a function without a return statement?",
+            "options": ["None", "0", "Error"],
+            "answer": "None",
+            "related_submodule": "Functions"
+          },
+          {
+            "difficulty": "Intermediate",
+            "question": "What is recursion?",
+            "options": [
+              "A function calling itself",
+              "A loop",
+              "A data structure"
+            ],
+            "answer": "A function calling itself",
+            "related_submodule": "Functions"
+          },
+          {
+            "difficulty": "Intermediate",
+            "question": "How do you call a function named 'foo'?",
+            "options": ["foo()", "call foo", "foo.call()"],
+            "answer": "foo()",
+            "related_submodule": "Functions"
+          },
+          {
+            "difficulty": "Intermediate",
+            "question": "What is a lambda function?",
+            "options": [
+              "An anonymous function",
+              "A named function",
+              "A recursive function"
+            ],
+            "answer": "An anonymous function",
+            "related_submodule": "Functions"
+          },
+          {
+            "difficulty": "Intermediate",
+            "question": "What is the key feature of a dictionary?",
+            "options": ["Key-value pairs", "Ordered elements", "Unique values"],
+            "answer": "Key-value pairs",
+            "related_submodule": "Data Structures"
+          },
+          {
+            "difficulty": "Advanced",
+            "question": "How do you access a dictionary value?",
+            "options": ["d['key']", "d.key", "d.value('key')"],
+            "answer": "d['key']",
+            "related_submodule": "Data Structures"
+          },
+          {
+            "difficulty": "Advanced",
+            "question": "Which data structure is ordered and immutable?",
+            "options": ["Tuple", "List", "Set"],
+            "answer": "Tuple",
+            "related_submodule": "Data Structures"
+          },
+          {
+            "difficulty": "Advanced",
+            "question": "Which function is used to open a file?",
+            "options": ["open()", "file()", "read()"],
+            "answer": "open()",
+            "related_submodule": "File Handling"
+          },
+          {
+            "difficulty": "Advanced",
+            "question": "What is the default file open mode?",
+            "options": ["'r' (read)", "'w' (write)", "'a' (append)"],
+            "answer": "'r' (read)",
+            "related_submodule": "File Handling"
+          },
+          {
+            "difficulty": "Advanced",
+            "question": "Which method reads the entire file?",
+            "options": ["read()", "readline()", "readlines()"],
+            "answer": "read()",
+            "related_submodule": "File Handling"
+          },
+          {
+            "difficulty": "Advanced",
+            "question": "How do you close a file?",
+            "options": ["file.close()", "close(file)", "exit(file)"],
+            "answer": "file.close()",
+            "related_submodule": "File Handling"
+          },
+          {
+            "difficulty": "Advanced",
+            "question": "Which mode allows writing to a file?",
+            "options": ["'w'", "'r'", "'x'"],
+            "answer": "'w'",
+            "related_submodule": "File Handling"
+          },
+          {
+            "difficulty": "Advanced",
+            "question": "What is list comprehension?",
+            "options": [
+              "A concise way to create lists",
+              "A loop",
+              "A function"
+            ],
+            "answer": "A concise way to create lists",
+            "related_submodule": "Data Structures"
+          },
+          {
+            "difficulty": "Advanced",
+            "question": "What does the 'with' statement do?",
+            "options": [
+              "Simplifies file handling (auto-closes files)",
+              "Defines a loop",
+              "Creates a context"
+            ],
+            "answer": "Simplifies file handling (auto-closes files)",
+            "related_submodule": "File Handling"
+          },
+          {
+            "difficulty": "Advanced",
+            "question": "What is a generator in Python?",
+            "options": [
+              "A function that yields values one at a time",
+              "A data structure",
+              "A loop"
+            ],
+            "answer": "A function that yields values one at a time",
+            "related_submodule": "Functions"
+          }
+        ]
+      }
+    ]
+  }

@@ -1,0 +1,570 @@
+{
+    "courses": [
+      {
+        "name": "HTML",
+        "submodules": [
+          {
+            "title": "HTML Basics",
+            "tags": ["Structure", "Elements"],
+            "yt_link": "https://www.youtube.com/watch?v=UB1O30fR-EE",
+            "reading_material": "https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML",
+            "assessment": [
+              {
+                "question": "What does HTML stand for?",
+                "options": [
+                  "Hyper Text Markup Language",
+                  "Hyperlinks and Text Markup Language",
+                  "Home Tool Markup Language"
+                ],
+                "answer": "Hyper Text Markup Language"
+              },
+              {
+                "question": "Which tag is used for a paragraph?",
+                "options": ["<p>", "<para>", "<text>"],
+                "answer": "<p>"
+              },
+              {
+                "question": "What is the correct HTML for a line break?",
+                "options": ["<br>", "<lb>", "<break>"],
+                "answer": "<br>"
+              },
+              {
+                "question": "Which attribute is used to define inline styles?",
+                "options": ["style", "class", "font"],
+                "answer": "style"
+              },
+              {
+                "question": "What is the root element of an HTML document?",
+                "options": ["<html>", "<body>", "<head>"],
+                "answer": "<html>"
+              }
+            ]
+          },
+          {
+            "title": "Forms and Input",
+            "tags": ["Forms", "Validation"],
+            "yt_link": "https://www.youtube.com/watch?v=fNcJuPIZ2WE",
+            "reading_material": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/form",
+            "assessment": [
+              {
+                "question": "Which input type is used for passwords?",
+                "options": ["type='text'", "type='password'", "type='hidden'"],
+                "answer": "type='password'"
+              },
+              {
+                "question": "Which tag is used for a dropdown list?",
+                "options": ["<select>", "<dropdown>", "<list>"],
+                "answer": "<select>"
+              },
+              {
+                "question": "What attribute is used to make an input field required?",
+                "options": ["required", "mandatory", "validate"],
+                "answer": "required"
+              },
+              {
+                "question": "Which tag is used to group form elements?",
+                "options": ["<fieldset>", "<group>", "<div>"],
+                "answer": "<fieldset>"
+              },
+              {
+                "question": "What is the default HTTP method for a form?",
+                "options": ["GET", "POST", "PUT"],
+                "answer": "GET"
+              }
+            ]
+          },
+          {
+            "title": "Semantic HTML",
+            "tags": ["Accessibility", "SEO"],
+            "yt_link": "https://www.youtube.com/watch?v=kGW8Al_cga4",
+            "reading_material": "https://developer.mozilla.org/en-US/docs/Glossary/Semantics",
+            "assessment": [
+              {
+                "question": "Which tag is used for a navigation bar?",
+                "options": ["<nav>", "<navbar>", "<menu>"],
+                "answer": "<nav>"
+              },
+              {
+                "question": "What does the <article> tag represent?",
+                "options": [
+                  "A standalone piece of content",
+                  "A blog post only",
+                  "A comment section"
+                ],
+                "answer": "A standalone piece of content"
+              },
+              {
+                "question": "Which tag is used for a footer?",
+                "options": ["<footer>", "<bottom>", "<end>"],
+                "answer": "<footer>"
+              },
+              {
+                "question": "What is the purpose of the <header> tag?",
+                "options": [
+                  "To contain introductory content",
+                  "To define a head section",
+                  "To style the top of the page"
+                ],
+                "answer": "To contain introductory content"
+              },
+              {
+                "question": "Which tag is used for side content?",
+                "options": ["<aside>", "<sidebar>", "<div>"],
+                "answer": "<aside>"
+              }
+            ]
+          },
+          {
+            "title": "Multimedia",
+            "tags": ["Video", "Audio"],
+            "yt_link": "https://www.youtube.com/watch?v=9YffrCViTVk",
+            "reading_material": "https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding",
+            "assessment": [
+              {
+                "question": "Which tag is used to embed a video?",
+                "options": ["<video>", "<media>", "<movie>"],
+                "answer": "<video>"
+              },
+              {
+                "question": "What attribute is used to autoplay a video?",
+                "options": ["autoplay", "auto", "play"],
+                "answer": "autoplay"
+              },
+              {
+                "question": "Which tag is used for audio?",
+                "options": ["<audio>", "<sound>", "<mp3>"],
+                "answer": "<audio>"
+              },
+              {
+                "question": "What attribute adds controls to a video?",
+                "options": ["controls", "controller", "manage"],
+                "answer": "controls"
+              },
+              {
+                "question": "Which tag is used for embedding external content?",
+                "options": ["<iframe>", "<embed>", "<external>"],
+                "answer": "<iframe>"
+              }
+            ]
+          },
+          {
+            "title": "Advanced Layout",
+            "tags": ["Flexbox", "Grid"],
+            "yt_link": "https://www.youtube.com/watch?v=JJSoEo8JSnc",
+            "reading_material": "https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout",
+            "assessment": [
+              {
+                "question": "Which CSS property is used for Flexbox?",
+                "options": ["display: flex", "display: grid", "display: block"],
+                "answer": "display: flex"
+              },
+              {
+                "question": "What does 'justify-content' do in Flexbox?",
+                "options": [
+                  "Aligns items horizontally",
+                  "Aligns items vertically",
+                  "Changes font size"
+                ],
+                "answer": "Aligns items horizontally"
+              },
+              {
+                "question": "Which property defines columns in CSS Grid?",
+                "options": ["grid-template-columns", "grid-columns", "columns"],
+                "answer": "grid-template-columns"
+              },
+              {
+                "question": "What is the default direction of Flexbox?",
+                "options": ["row", "column", "stack"],
+                "answer": "row"
+              },
+              {
+                "question": "Which tag is commonly used as a Flexbox container?",
+                "options": ["<div>", "<flex>", "<container>"],
+                "answer": "<div>"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "C++",
+        "submodules": [
+          {
+            "title": "C++ Basics",
+            "tags": ["Syntax", "Variables"],
+            "yt_link": "https://www.youtube.com/watch?v=vLnPwxZdW4Y",
+            "reading_material": "https://www.learncpp.com/",
+            "assessment": [
+              {
+                "question": "Which operator is used for output in C++?",
+                "options": ["<<", ">>", "cout"],
+                "answer": "<<"
+              },
+              {
+                "question": "What is the correct way to declare an integer?",
+                "options": ["int x;", "integer x;", "x = int;"],
+                "answer": "int x;"
+              },
+              {
+                "question": "Which header is needed for cout?",
+                "options": ["<iostream>", "<stdio.h>", "<output>"],
+                "answer": "<iostream>"
+              },
+              {
+                "question": "What is the entry point of a C++ program?",
+                "options": ["main()", "start()", "init()"],
+                "answer": "main()"
+              },
+              {
+                "question": "Which symbol ends a statement in C++?",
+                "options": [";", ":", "."],
+                "answer": ";"
+              }
+            ]
+          },
+          {
+            "title": "Control Structures",
+            "tags": ["Loops", "Conditionals"],
+            "yt_link": "https://www.youtube.com/watch?v=Rub-JsjMhWY",
+            "reading_material": "https://www.learncpp.com/cpp-tutorial/control-flow-introduction/",
+            "assessment": [
+              {
+                "question": "Which loop is guaranteed to run at least once?",
+                "options": ["do-while", "while", "for"],
+                "answer": "do-while"
+              },
+              {
+                "question": "What is the correct syntax for an 'if' statement?",
+                "options": ["if (x) {}", "if x {}", "if [x] {}"],
+                "answer": "if (x) {}"
+              },
+              {
+                "question": "Which keyword is used to exit a loop?",
+                "options": ["break", "exit", "stop"],
+                "answer": "break"
+              },
+              {
+                "question": "What does the '++' operator do?",
+                "options": ["Increments by 1", "Adds 2", "Multiplies by 1"],
+                "answer": "Increments by 1"
+              },
+              {
+                "question": "Which is NOT a loop in C++?",
+                "options": ["repeat-until", "for", "while"],
+                "answer": "repeat-until"
+              }
+            ]
+          },
+          {
+            "title": "Functions",
+            "tags": ["Parameters", "Recursion"],
+            "yt_link": "https://www.youtube.com/watch?v=GQp1zzTwrIg",
+            "reading_material": "https://www.learncpp.com/cpp-tutorial/functions-introduction/",
+            "assessment": [
+              {
+                "question": "What is a function prototype?",
+                "options": [
+                  "Declaration of a function",
+                  "Definition of a function",
+                  "A function call"
+                ],
+                "answer": "Declaration of a function"
+              },
+              {
+                "question": "Which keyword is used for recursion?",
+                "options": ["None (call the function itself)", "recurse", "loop"],
+                "answer": "None (call the function itself)"
+              },
+              {
+                "question": "What is the return type of a void function?",
+                "options": ["Nothing", "int", "char"],
+                "answer": "Nothing"
+              },
+              {
+                "question": "How are parameters passed by default in C++?",
+                "options": ["By value", "By reference", "By pointer"],
+                "answer": "By value"
+              },
+              {
+                "question": "What is function overloading?",
+                "options": [
+                  "Multiple functions with the same name but different parameters",
+                  "A function that calls itself",
+                  "A function with no return type"
+                ],
+                "answer": "Multiple functions with the same name but different parameters"
+              }
+            ]
+          },
+          {
+            "title": "OOP in C++",
+            "tags": ["Classes", "Objects"],
+            "yt_link": "https://www.youtube.com/watch?v=wN0x9eZLix4",
+            "reading_material": "https://www.learncpp.com/cpp-tutorial/introduction-to-classes/",
+            "assessment": [
+              {
+                "question": "Which keyword defines a class?",
+                "options": ["class", "struct", "object"],
+                "answer": "class"
+              },
+              {
+                "question": "What is an object?",
+                "options": [
+                  "Instance of a class",
+                  "A function",
+                  "A data type"
+                ],
+                "answer": "Instance of a class"
+              },
+              {
+                "question": "What is encapsulation?",
+                "options": [
+                  "Bundling data and methods",
+                  "Inheriting properties",
+                  "Hiding data"
+                ],
+                "answer": "Bundling data and methods"
+              },
+              {
+                "question": "Which access specifier is default in a class?",
+                "options": ["private", "public", "protected"],
+                "answer": "private"
+              },
+              {
+                "question": "What is a constructor?",
+                "options": [
+                  "A function called when an object is created",
+                  "A destructor",
+                  "A static method"
+                ],
+                "answer": "A function called when an object is created"
+              }
+            ]
+          },
+          {
+            "title": "Pointers and Memory",
+            "tags": ["Pointers", "Dynamic Allocation"],
+            "yt_link": "https://www.youtube.com/watch?v=DTxHyVn0ODg",
+            "reading_material": "https://www.learncpp.com/cpp-tutorial/pointers-introduction/",
+            "assessment": [
+              {
+                "question": "What is a pointer?",
+                "options": [
+                  "A variable that stores a memory address",
+                  "A data type",
+                  "A function"
+                ],
+                "answer": "A variable that stores a memory address"
+              },
+              {
+                "question": "Which operator is used to get the address of a variable?",
+                "options": ["&", "*", "#"],
+                "answer": "&"
+              },
+              {
+                "question": "What does 'new' do in C++?",
+                "options": [
+                  "Allocates memory dynamically",
+                  "Creates a class",
+                  "Declares a variable"
+                ],
+                "answer": "Allocates memory dynamically"
+              },
+              {
+                "question": "What is the correct way to free memory in C++?",
+                "options": ["delete", "free", "release"],
+                "answer": "delete"
+              },
+              {
+                "question": "What is a null pointer?",
+                "options": [
+                  "A pointer that points to nothing",
+                  "A pointer to zero",
+                  "A void pointer"
+                ],
+                "answer": "A pointer that points to nothing"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Python",
+        "submodules": [
+          {
+            "title": "Python Basics",
+            "tags": ["Syntax", "Variables"],
+            "yt_link": "https://www.youtube.com/watch?v=rfscVS0vtbw",
+            "reading_material": "https://docs.python.org/3/tutorial/introduction.html",
+            "assessment": [
+              {
+                "question": "Which symbol is used for comments in Python?",
+                "options": ["#", "//", "/*"],
+                "answer": "#"
+              },
+              {
+                "question": "What is the output of 'print(3 + 2)'?",
+                "options": ["5", "32", "None"],
+                "answer": "5"
+              },
+              {
+                "question": "How do you declare a variable in Python?",
+                "options": ["x = 5", "var x = 5", "int x = 5"],
+                "answer": "x = 5"
+              },
+              {
+                "question": "Which function is used to get user input?",
+                "options": ["input()", "get()", "read()"],
+                "answer": "input()"
+              },
+              {
+                "question": "What is the type of '3.14' in Python?",
+                "options": ["float", "int", "str"],
+                "answer": "float"
+              }
+            ]
+          },
+          {
+            "title": "Control Flow",
+            "tags": ["Loops", "Conditionals"],
+            "yt_link": "https://www.youtube.com/watch?v=daefaLgNkw0",
+            "reading_material": "https://docs.python.org/3/tutorial/controlflow.html",
+            "assessment": [
+              {
+                "question": "Which keyword is used for loops in Python?",
+                "options": ["for", "loop", "while"],
+                "answer": "for"
+              },
+              {
+                "question": "What is the correct syntax for an 'if' statement?",
+                "options": ["if x > 0:", "if (x > 0)", "if [x > 0]"],
+                "answer": "if x > 0:"
+              },
+              {
+                "question": "What does 'range(5)' generate?",
+                "options": ["0, 1, 2, 3, 4", "1, 2, 3, 4, 5", "5 numbers"],
+                "answer": "0, 1, 2, 3, 4"
+              },
+              {
+                "question": "Which keyword is used to exit a loop?",
+                "options": ["break", "exit", "stop"],
+                "answer": "break"
+              },
+              {
+                "question": "What is the output of 'print(10 // 3)'?",
+                "options": ["3", "3.333", "1"],
+                "answer": "3"
+              }
+            ]
+          },
+          {
+            "title": "Functions",
+            "tags": ["Parameters", "Recursion"],
+            "yt_link": "https://www.youtube.com/watch?v=9Os0o3wzS_I",
+            "reading_material": "https://docs.python.org/3/tutorial/controlflow.html#defining-functions",
+            "assessment": [
+              {
+                "question": "Which keyword defines a function in Python?",
+                "options": ["def", "function", "func"],
+                "answer": "def"
+              },
+              {
+                "question": "What is the return value of a function without a return statement?",
+                "options": ["None", "0", "Error"],
+                "answer": "None"
+              },
+              {
+                "question": "What is recursion?",
+                "options": [
+                  "A function calling itself",
+                  "A loop",
+                  "A data structure"
+                ],
+                "answer": "A function calling itself"
+              },
+              {
+                "question": "How do you call a function named 'foo'?",
+                "options": ["foo()", "call foo", "foo.call()"],
+                "answer": "foo()"
+              },
+              {
+                "question": "What is a lambda function?",
+                "options": [
+                  "An anonymous function",
+                  "A named function",
+                  "A recursive function"
+                ],
+                "answer": "An anonymous function"
+              }
+            ]
+          },
+          {
+            "title": "Data Structures",
+            "tags": ["Lists", "Dictionaries"],
+            "yt_link": "https://www.youtube.com/watch?v=W8KRzm-HUcc",
+            "reading_material": "https://docs.python.org/3/tutorial/datastructures.html",
+            "assessment": [
+              {
+                "question": "How do you create an empty list?",
+                "options": ["[]", "list()", "Both A and B"],
+                "answer": "Both A and B"
+              },
+              {
+                "question": "Which method adds an item to a list?",
+                "options": ["append()", "add()", "push()"],
+                "answer": "append()"
+              },
+              {
+                "question": "What is the key feature of a dictionary?",
+                "options": ["Key-value pairs", "Ordered elements", "Unique values"],
+                "answer": "Key-value pairs"
+              },
+              {
+                "question": "How do you access a dictionary value?",
+                "options": ["d['key']", "d.key", "d.value('key')"],
+                "answer": "d['key']"
+              },
+              {
+                "question": "Which data structure is ordered and immutable?",
+                "options": ["Tuple", "List", "Set"],
+                "answer": "Tuple"
+              }
+            ]
+          },
+          {
+            "title": "File Handling",
+            "tags": ["Reading", "Writing"],
+            "yt_link": "https://www.youtube.com/watch?v=Uh2ebFW8OYM",
+            "reading_material": "https://docs.python.org/3/tutorial/inputoutput.html#reading-and-writing-files",
+            "assessment": [
+              {
+                "question": "Which function is used to open a file?",
+                "options": ["open()", "file()", "read()"],
+                "answer": "open()"
+              },
+              {
+                "question": "What is the default file open mode?",
+                "options": ["'r' (read)", "'w' (write)", "'a' (append)"],
+                "answer": "'r' (read)"
+              },
+              {
+                "question": "Which method reads the entire file?",
+                "options": ["read()", "readline()", "readlines()"],
+                "answer": "read()"
+              },
+              {
+                "question": "How do you close a file?",
+                "options": ["file.close()", "close(file)", "exit(file)"],
+                "answer": "file.close()"
+              },
+              {
+                "question": "Which mode allows writing to a file?",
+                "options": ["'w'", "'r'", "'x'"],
+                "answer": "'w'"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }

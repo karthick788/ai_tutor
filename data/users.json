@@ -1,0 +1,177 @@
+[
+  {
+    "name": "John Doe",
+    "email": "john.doe@example.com",
+    "password": "hashed_secure_password_123",
+    "courses_enrolled": [
+      "Python Basics",
+      "Machine Learning"
+    ],
+    "difficulty_level": "Intermediate",
+    "topics_weak": [
+      "Recursion",
+      "Dynamic Programming"
+    ]
+  },
+  {
+    "name": "Jane Smith",
+    "email": "jane.smith@example.com",
+    "password": "hashed_secure_password_456",
+    "courses_enrolled": [
+      "Web Development",
+      "Data Structures"
+    ],
+    "difficulty_level": "Beginner",
+    "topics_weak": [
+      "Pointers",
+      "Asynchronous Programming"
+    ]
+  },
+  {
+    "name": "user1",
+    "email": "user1@gmail.com",
+    "password": "user@123",
+    "courses_enrolled": [
+      "HTML",
+      "C++",
+      "Python"
+    ],
+    "topics_weak": [],
+    "course_levels": {},
+    "progress": {
+      "C++": {
+        "completed_modules": [],
+        "scores": [],
+        "weak_topics": []
+      },
+      "Python": {
+        "completed_modules": [],
+        "scores": [],
+        "weak_topics": []
+      }
+    }
+  },
+  {
+    "name": "kit",
+    "email": "kit@gmail.com",
+    "password": "kit",
+    "courses_enrolled": [
+      "HTML",
+      "C++",
+      "Python"
+    ],
+    "topics_weak": [
+      "Python",
+      "Structure",
+      "HTML",
+      "C++",
+      "Elements"
+    ],
+    "course_levels": {
+      "HTML": "beginner",
+      "C++": "intermediate",
+      "Python": "advanced"
+    },
+    "progress": {
+      "HTML": {
+        "completed_modules": [
+          "HTML Basics"
+        ],
+        "scores": [
+          1,
+          2,
+          0,
+          0,
+          5,
+          4
+        ],
+        "weak_topics": [
+          "HTML",
+          "Structure",
+          "Elements"
+        ]
+      },
+      "C++": {
+        "completed_modules": [],
+        "scores": [
+          6,
+          3
+        ],
+        "weak_topics": [
+          "Parameters",
+          "Recursion",
+          "C++"
+        ]
+      },
+      "Python": {
+        "completed_modules": [],
+        "scores": [
+          9
+        ],
+        "weak_topics": [
+          "Python"
+        ]
+      }
+    }
+  },
+  {
+    "name": "new",
+    "email": "new@gmail.com",
+    "password": "new",
+    "courses_enrolled": [
+      "HTML"
+    ],
+    "topics_weak": [
+      "HTML"
+    ],
+    "course_levels": {
+      "HTML": "advanced"
+    },
+    "progress": {
+      "HTML": {
+        "completed_modules": [
+          "HTML Basics"
+        ],
+        "scores": [
+          9,
+          4
+        ],
+        "weak_topics": [
+          "HTML",
+          "Structure",
+          "Elements"
+        ]
+      }
+    }
+  },
+  {
+    "name": "Karthick",
+    "email": "karthik@gmail.com",
+    "password": "karthi",
+    "courses_enrolled": [
+      "HTML"
+    ],
+    "topics_weak": [
+      "HTML"
+    ],
+    "course_levels": {
+      "HTML": "intermediate"
+    },
+    "progress": {
+      "HTML": {
+        "completed_modules": [
+          "HTML Basics"
+        ],
+        "scores": [
+          6,
+          4
+        ],
+        "weak_topics": [
+          "HTML",
+          "Structure",
+          "Elements"
+        ]
+      }
+    }
+  }
+]
