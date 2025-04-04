@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Module Assessment | Smart Learning Platform</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css">
+    <style>
+        body {
+            background-color: #f8f9fc;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            padding: 20px;
+        }
+        .assessment-container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        .question-card {
+            border-left: 4px solid #4e73df;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            background: white;
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+        .option-label {
+            display: block;
+            padding: 12px 20px;
+            margin-bottom: 10px;
+            border: 1px solid #e3e6f0;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: all 0.2s ease;
+        }
+        .option-label:hover {
+            background-color: #f0f4f8;
+        }
+        .option-input:checked + .option-label {
+            background-color: rgba(78, 115, 223, 0.1);
+            border-color: #4e73df;
+            font-weight: 500;
+        }
+        .assessment-header {
+            background: linear-gradient(135deg, #4e73df 0%, #224abe 100%);
+            color: white;
+            padding: 20px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+        .navigation-buttons {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 20px;
+        }
+        .hidden {
+            display: none;
+        }
+        .timer-container {
+            background-color: white;
+            border-radius: 50px;
+            padding: 0.5rem 1rem;
+            box-shadow: 0 0.15rem 0.5rem 0 rgba(58, 59, 69, 0.1);
+            color: #5a5c69;
+            margin-top: 10px;
+            display: inline-block;
+        }
+    </style>
+</head>
+<body>
+    <div class="assessment-container">
+        <div class="assessment-header">
+            <h2><i class="bi bi-clipboard-check"></i> {{ course_name }}</h2>
+            <p class="mb-0">{{ module_title }} Assessment</p>
+            <div class="timer-container">
+                <i class="bi bi-clock me-2"></i>
+                <span id="timer">15:00</span>
+            </div>
+        </div>
+
+        <form method="POST" action="{{ url_for('module_assessment', course_name=course_name, module_title=module_title) }}" id="assessment-form">
+            <input type="hidden" name="csrf_token" value="{{ csrf_token() }}"/>
+            
+            <!-- Question 1 -->
+            <div class="question-card" id="question-1">
+                <h5><span class="badge bg-primary me-2">1</span> {{ questions[0].question }}</h5>
+                <div class="options-container">
+                    <div class="form-check">
+                        <input class="form-check-input option-input" type="radio" name="q_1" id="q1_option1" value="{{ questions[0].options[0] }}" required>
+                        <label class="option-label" for="q1_option1">A. {{ questions[0].options[0] }}</label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input option-input" type="radio" name="q_1" id="q1_option2" value="{{ questions[0].options[1] }}">
+                        <label class="option-label" for="q1_option2">B. {{ questions[0].options[1] }}</label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input option-input" type="radio" name="q_1" id="q1_option3" value="{{ questions[0].options[2] }}">
+                        <label class="option-label" for="q1_option3">C. {{ questions[0].options[2] }}</label>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Question 2 -->
+            <div class="question-card hidden" id="question-2">
+                <h5><span class="badge bg-primary me-2">2</span> {{ questions[1].question }}</h5>
+                <div class="options-container">
+                    <div class="form-check">
+                        <input class="form-check-input option-input" type="radio" name="q_2" id="q2_option1" value="{{ questions[1].options[0] }}" required>
+                        <label class="option-label" for="q2_option1">A. {{ questions[1].options[0] }}</label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input option-input" type="radio" name="q_2" id="q2_option2" value="{{ questions[1].options[1] }}">
+                        <label class="option-label" for="q2_option2">B. {{ questions[1].options[1] }}</label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input option-input" type="radio" name="q_2" id="q2_option3" value="{{ questions[1].options[2] }}">
+                        <label class="option-label" for="q2_option3">C. {{ questions[1].options[2] }}</label>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Question 3 -->
+            <div class="question-card hidden" id="question-3">
+                <h5><span class="badge bg-primary me-2">3</span> {{ questions[2].question }}</h5>
+                <div class="options-container">
+                    <div class="form-check">
+                        <input class="form-check-input option-input" type="radio" name="q_3" id="q3_option1" value="{{ questions[2].options[0] }}" required>
+                        <label class="option-label" for="q3_option1">A. {{ questions[2].options[0] }}</label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input option-input" type="radio" name="q_3" id="q3_option2" value="{{ questions[2].options[1] }}">
+                        <label class="option-label" for="q3_option2">B. {{ questions[2].options[1] }}</label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input option-input" type="radio" name="q_3" id="q3_option3" value="{{ questions[2].options[2] }}">
+                        <label class="option-label" for="q3_option3">C. {{ questions[2].options[2] }}</label>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Question 4 -->
+            <div class="question-card hidden" id="question-4">
+                <h5><span class="badge bg-primary me-2">4</span> {{ questions[3].question }}</h5>
+                <div class="options-container">
+                    <div class="form-check">
+                        <input class="form-check-input option-input" type="radio" name="q_4" id="q4_option1" value="{{ questions[3].options[0] }}" required>
+                        <label class="option-label" for="q4_option1">A. {{ questions[3].options[0] }}</label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input option-input" type="radio" name="q_4" id="q4_option2" value="{{ questions[3].options[1] }}">
+                        <label class="option-label" for="q4_option2">B. {{ questions[3].options[1] }}</label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input option-input" type="radio" name="q_4" id="q4_option3" value="{{ questions[3].options[2] }}">
+                        <label class="option-label" for="q4_option3">C. {{ questions[3].options[2] }}</label>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Question 5 -->
+            <div class="question-card hidden" id="question-5">
+                <h5><span class="badge bg-primary me-2">5</span> {{ questions[4].question }}</h5>
+                <div class="options-container">
+                    <div class="form-check">
+                        <input class="form-check-input option-input" type="radio" name="q_5" id="q5_option1" value="{{ questions[4].options[0] }}" required>
+                        <label class="option-label" for="q5_option1">A. {{ questions[4].options[0] }}</label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input option-input" type="radio" name="q_5" id="q5_option2" value="{{ questions[4].options[1] }}">
+                        <label class="option-label" for="q5_option2">B. {{ questions[4].options[1] }}</label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input option-input" type="radio" name="q_5" id="q5_option3" value="{{ questions[4].options[2] }}">
+                        <label class="option-label" for="q5_option3">C. {{ questions[4].options[2] }}</label>
+                    </div>
+                </div>
+            </div>
+
+            <div class="navigation-buttons">
+                <button type="button" class="btn btn-outline-primary" id="prev-btn" disabled>
+                    <i class="bi bi-chevron-left"></i> Previous
+                </button>
+                <button type="button" class="btn btn-primary" id="next-btn">
+                    Next <i class="bi bi-chevron-right"></i>
+                </button>
+                <button type="submit" class="btn btn-success hidden" id="submit-btn">
+                    Submit Assessment <i class="bi bi-send"></i>
+                </button>
+            </div>
+        </form>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const totalQuestions = 5;
+            let currentQuestion = 1;
+            const prevBtn = document.getElementById('prev-btn');
+            const nextBtn = document.getElementById('next-btn');
+            const submitBtn = document.getElementById('submit-btn');
+            const timerElement = document.getElementById('timer');
+            let timeLeft = 15 * 60; // 15 minutes in seconds
+
+            // Timer functionality
+            const timerInterval = setInterval(function() {
+                timeLeft--;
+                const minutes = Math.floor(timeLeft / 60);
+                const seconds = timeLeft % 60;
+                timerElement.textContent = `${minutes}:${seconds < 10 ? '0' : ''}${seconds}`;
+                
+                if (timeLeft <= 0) {
+                    clearInterval(timerInterval);
+                    timerElement.textContent = "Time's up!";
+                    timerElement.classList.add('text-danger');
+                    document.getElementById('assessment-form').submit();
+                }
+            }, 1000);
+
+            function showQuestion(questionNumber) {
+                // Hide all questions
+                document.querySelectorAll('.question-card').forEach(card => {
+                    card.classList.add('hidden');
+                });
+                
+                // Show the selected question
+                document.getElementById(`question-${questionNumber}`).classList.remove('hidden');
+                
+                // Update button states
+                prevBtn.disabled = questionNumber === 1;
+                nextBtn.classList.toggle('hidden', questionNumber === totalQuestions);
+                submitBtn.classList.toggle('hidden', questionNumber !== totalQuestions);
+            }
+
+            prevBtn.addEventListener('click', function() {
+                if (currentQuestion > 1) {
+                    currentQuestion--;
+                    showQuestion(currentQuestion);
+                }
+            });
+
+            nextBtn.addEventListener('click', function() {
+                // Validate current question is answered
+                const currentQuestionAnswered = document.querySelector(`input[name="q_${currentQuestion}"]:checked`);
+                if (!currentQuestionAnswered) {
+                    alert('Please select an answer before proceeding');
+                    return;
+                }
+
+                if (currentQuestion < totalQuestions) {
+                    currentQuestion++;
+                    showQuestion(currentQuestion);
+                }
+            });
+
+            // Initialize
+            showQuestion(1);
+        });
+    </script>
+</body>
+</html>
